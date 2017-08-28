@@ -1,4 +1,5 @@
 # validatable-record
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 > Immutable.js Record powered with validate.js
 
 ## Table of Contents
