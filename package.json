@@ -1,6 +1,6 @@
 {
   "name": "validatable-record",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Immutable.js Record powered with validate.js",
   "main": "index.js",
   "scripts": {
