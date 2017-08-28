@@ -14,7 +14,7 @@ $ npm install --save validatable-record
 ```
 
 ## Usage
-Usage is almost the same as `Record` in Immutable.js, but it has the power of `validate.js`. With ValidatableRecord, you can define models with built-in validation logic.
+ValidatableRecord returns `Record` in Immutable.js for extending your own class. Usage is almost the same as `Record` in Immutable.js, but it has the power of `validate.js`. With ValidatableRecord, you can define models with built-in validation logic.
 ```js
 const ManRecord = ValidatableRecord({
   name: null,
@@ -39,18 +39,20 @@ const man = new Man({
   age: 25
 });
 
-man.validate()
-// == true
+man.validate() // == true
+
+// Of course you can use `Immutable.Record` methods
+man.size // 2
+man.get('name') // "Justine"
+man.get('age') // 25
 
 const agelessMan = new Man({
   name: "Michael"
 });
 
-agelessMan.validate()
-// == false
+agelessMan.validate() // == false
 
-agelessMan.getErrors()
-// == [ "Age is invalid" ]
+agelessMan.getErrors() // == [ "Age is invalid" ]
 ```
 
 ## Test
