@@ -4,8 +4,10 @@
 > Immutable.js Record powered with validate.js
 
 ## Table of Contents
+- [Install](README.md#Install)
 - [Usage](README.md#Usage)
 - [Contribute](README.md#Contribute)
+- [Test](README.md#Test)
 - [License](README.md#License)
 
 ## Install
