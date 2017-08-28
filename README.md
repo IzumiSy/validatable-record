@@ -42,9 +42,9 @@ const man = new Man({
 man.validate() // == true
 
 // Of course you can use `Immutable.Record` methods
-man.size // 2
+man.size        // 2
 man.get('name') // "Justine"
-man.get('age') // 25
+man.get('age')  // 25
 
 const agelessMan = new Man({
   name: "Michael"
