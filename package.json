@@ -1,0 +1,32 @@
+{
+  "name": "validatable-record",
+  "version": "1.0.0",
+  "description": "Immutable.js Record powered with validate.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzumiSy/validatable-record.git"
+  },
+  "keywords": [
+    "immutable",
+    "record",
+    "validate",
+    "model"
+  ],
+  "author": "IzumiSy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IzumiSy/validatable-record/issues"
+  },
+  "homepage": "https://github.com/IzumiSy/validatable-record#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "validate.js": "^0.11.1"
+  }
+}
