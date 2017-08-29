@@ -55,6 +55,11 @@ const agelessMan = new Man({
 agelessMan.validate() // == false
 
 agelessMan.getErrors() // == [ "Age is invalid" ]
+
+// You van set your own error to model
+agelessMan.setError("Unknown error")
+
+agelessMan.getErrors() // = [ "Unknown error" ]
 ```
 
 ## Test
