@@ -46,3 +46,14 @@ test('getErrors method returns errors of validations', (t) => {
   t.is(_.first(errors), 'Age is invalid')
 });
 
+test('setError method can set your own error to model', (t) => {
+  const record = new Record({
+    name: "Justine", age: 10
+  });
+
+  record.setError('Unknown error')
+  const errors = record.getErrors();
+
+  t.is(_.first(errors), 'Unknown error')
+});
+
