@@ -1,6 +1,7 @@
 # validatable-record
 [![CircleCI](https://circleci.com/gh/IzumiSy/sinatra-errorcodes.svg?style=shield)](https://circleci.com/gh/IzumiSy/sinatra-errorcodes)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![npm version](https://badge.fury.io/js/validatable-record.svg)](https://badge.fury.io/js/validatable-record)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 > Immutable.js Record powered with validate.js
 
