@@ -1,5 +1,5 @@
 # validatable-record
-[![CircleCI](https://circleci.com/gh/IzumiSy/sinatra-errorcodes.svg?style=shield)](https://circleci.com/gh/IzumiSy/sinatra-errorcodes)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/IzumiSy/validatable-record/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/IzumiSy/validatable-record/tree/master)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![npm version](https://badge.fury.io/js/validatable-record.svg)](https://badge.fury.io/js/validatable-record)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
